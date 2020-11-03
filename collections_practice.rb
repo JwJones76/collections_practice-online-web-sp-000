@@ -35,6 +35,8 @@ def reverse_array(array)
 end
 
 def ke$ha_maker(array)
+  array.map {|word| word.insert(2, "$")}
+end
   
 
 def find_a(array)
