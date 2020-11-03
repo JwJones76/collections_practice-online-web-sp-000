@@ -34,8 +34,7 @@ def reverse_array(array)
   array.reverse
 end
 
-expected: ["bl$ke", "as$ley", "sc$tt"]
-            got: [["$"], ["$"], ["$"]]
+def ke$ha_maker
   
 
 def find_a(array)
