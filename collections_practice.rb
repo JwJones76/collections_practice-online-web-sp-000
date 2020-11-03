@@ -36,8 +36,8 @@ end
 
 def kesha_maker(array)
   array.map do |word|
-    word.split_with_index do |c, i|
-      if i = 2
+    word.split do |c|
+      if i = [2]
         c.gsub!(c, "$")
       end
     end
