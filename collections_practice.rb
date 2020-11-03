@@ -34,7 +34,7 @@ def reverse_array(array)
   array.reverse
 end
 
-def ke$ha_maker(array)
+def kesha_maker(array)
   array.map {|word| word.insert(2, "$")}
 end
   
