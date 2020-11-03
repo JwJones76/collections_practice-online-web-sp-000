@@ -35,7 +35,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map
+  array.map {|word| word.insert(2, "$")}
+end
   
 
 def find_a(array)
