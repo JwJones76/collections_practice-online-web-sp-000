@@ -34,7 +34,7 @@ def reverse_array(array)
   array.reverse
 end
 
-def ke$ha_maker
+def ke$ha_maker(array)
   
 
 def find_a(array)
