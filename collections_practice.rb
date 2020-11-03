@@ -35,14 +35,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map do |word|
-    word.split.each_with_index do |c, i|
-      if i = 2
-        c.gsub!(c, "$")
-      end
-    end
-  end
-end
+  array.map
   
 
 def find_a(array)
