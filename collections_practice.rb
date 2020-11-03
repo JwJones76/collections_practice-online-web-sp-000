@@ -34,9 +34,8 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  array.map {|word| word.insert(2, "$")}
-end
+expected: ["bl$ke", "as$ley", "sc$tt"]
+            got: [["$"], ["$"], ["$"]]
   
 
 def find_a(array)
